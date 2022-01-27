@@ -1,0 +1,1 @@
+cmd_/home/srujan/cdac/DD/Device_file/Module.symvers := sed 's/ko$$/o/' /home/srujan/cdac/DD/Device_file/modules.order | scripts/mod/modpost -m -a   -o /home/srujan/cdac/DD/Device_file/Module.symvers -e -i Module.symvers   -T -
